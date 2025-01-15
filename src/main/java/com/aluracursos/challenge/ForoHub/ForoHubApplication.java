@@ -18,6 +18,12 @@ public class ForoHubApplication {
 		this.usuarioRepositorio = usuarioRepositorio;
 		this.passwordEncoder = passwordEncoder;
 	}
+	@PostConstruct
+	public void init() {
+		String contrasena = "123456"; // Cambia esto a la contraseña que quieras encriptar
+		String contrasenaEncriptada = passwordEncoder.encode(contrasena);
+		System.out.println("Contraseña encriptada: " + contrasenaEncriptada);
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(ForoHubApplication.class, args);
