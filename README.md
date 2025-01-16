@@ -1,5 +1,9 @@
 # **Challenge AluraONE ForoHub**
 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
 ## **Descripción del Proyecto**
 ForoHub es una API RESTful construida con **Spring Boot**, diseñada para gestionar un foro de discusión. Este proyecto fue desarrollado como parte del Challenge AluraONE y contiene las siguientes funcionalidades clave:
 - Creación, listado, actualización y eliminación de **tópicos**.
